@@ -3,5 +3,5 @@ import json
 def lambda_handler(event, context):
     return {
         'statusCode': 200,
-        'body': json.dumps('Hello github actions workflow vscode')
+        'body': json.dumps('Hello actions workflow vscode')
     }
